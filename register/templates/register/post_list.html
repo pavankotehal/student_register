@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+</head>
+<body>
+    {% for student in students %}
+        <div>
+            <p>{{ student.get_branches_display }}</p>
+            <h1><a href="">{{ student }}</a></h1>
+            <p>{{ student.get_year_in_school_display |linebreaksbr }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
