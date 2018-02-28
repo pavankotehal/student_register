@@ -1,3 +1,3 @@
-**Sample application to maintain Student details**
+**Sample Tutorial application to maintain Student details**
 
 
